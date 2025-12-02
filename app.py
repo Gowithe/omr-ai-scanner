@@ -11,7 +11,7 @@ from ultralytics import YOLO
 # =====================================
 
 # โมเดล YOLO (1 class = X)
-MODEL_PATH = r"runs/detect/train_AE52/weights/bestX.pt"
+MODEL_PATH = "bestX.pt"
 
 # ไฟล์ template (ต้องเตรียมไว้แล้ว)
 TEMPLATE_FILES = {
